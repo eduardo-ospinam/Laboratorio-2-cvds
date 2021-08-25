@@ -39,7 +39,8 @@
 
 2. cómo ejecutar desde línea de comandos, un proyecto maven y verifique la salida cuando se ejecuta con la clase App.java como parámetro en "mainClass".
 	1. se pueden especificar toda la informacion relevante en la configuracion de plugin. dependiendo del caso, tambien se puede especificar alguna o toida la informacion usando propiedades del sistema. en el caso de la linea de comando, con la propiedades del sistema se ejecutaria de la siguiente manera:mvn exec:exec -Dexec.executable="maven" [-Dexec.workingdir="/tmp"] -Dexec.args="-X myproject:dist". 
-	2. si se quiere ejecutar u nprograma java en el mismo VM que Maven se puede o modificar del mismo modo, configurando el plugin en el POM. o usando el codigo modificado de: mvn exec:java -Dexec.mainClass="com.example.Main" [-Dexec.args="argument1"] ...
+	2. si se quiere ejecutar u nprograma java en el mismo VM que Maven se puede o modificar del mismo modo, configurando el plugin en el POM. o usando el codigo modificado de: mvn exec:java -Dexec.mainClass="edu.eci.cvds.App" que fue en nustro caso para lograr compilarlo.
+![](https://i.postimg.cc/RFzXMH9R/compilar-maven.jpg)
 
 
 
