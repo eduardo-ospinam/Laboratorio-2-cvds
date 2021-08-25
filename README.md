@@ -27,6 +27,20 @@
 
 
 
+## Compilar y Ejecutar:
+
+1. cuál es el objetivo del parámetro "package" y qué otros parámetros se podrían enviar al comando mvn.
+	1. package es el comando de empaquetado del proyecto maven. para un proyecto java se ejecuta el paquete y se marca como un paquete jar y para un proyecto web se trata de un paquete war.
+	2. otros parametros para mvn son: 
+		1. mvn compile: es el comando de compilacion del proyecto maven, los archivos se compilan en archivos de clase y se envian al directorio de destino.
+		2. mvn test: comando de prueba del proyecto maven, cmd ejecuta la clase de prueba unitaria en la ubicacion dada.
+		3. mvn clean: comando de limpiesa del proyecto maven, elimina el directorio y el contenido en el destino.
+		4. mvn install: comando de installacion del proyecto de maven. marcara en un paquete jar o paquete war y lo publicara en el almacen local.
+
+2. cómo ejecutar desde línea de comandos, un proyecto maven y verifique la salida cuando se ejecuta con la clase App.java como parámetro en "mainClass".
+	1. se pueden especificar toda la informacion relevante en la configuracion de plugin. dependiendo del caso, tambien se puede especificar alguna o toida la informacion usando propiedades del sistema. en el caso de la linea de comando, con la propiedades del sistema se ejecutaria de la siguiente manera:mvn exec:exec -Dexec.executable="maven" [-Dexec.workingdir="/tmp"] -Dexec.args="-X myproject:dist". 
+	2. si se quiere ejecutar u nprograma java en el mismo VM que Maven se puede o modificar del mismo modo, configurando el plugin en el POM. o usando el codigo modificado de: mvn exec:java -Dexec.mainClass="com.example.Main" [-Dexec.args="argument1"] ...
+
 
 
 
@@ -35,3 +49,5 @@
 2. https://maven.apache.org/what-is-maven.html
 3. https://developer.ibm.com/es/articles/j-5things16/
 4. https://geekflare.com/es/apache-maven-for-beginners/
+5. https://programmerclick.com/article/81251978045/
+
