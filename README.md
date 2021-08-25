@@ -52,6 +52,14 @@
 ![](https://i.postimg.cc/L8JJsQ89/maven4.jpg)
 ![](https://i.postimg.cc/sxfXCwLR/maven5.jpg)
 
+### HACER EL ESQUELETO DE LA APLICACION:
+
+![](https://i.postimg.cc/7YMw3pKP/maven6.jpg)
+![](https://i.postimg.cc/dV5FXGMz/maven7.jpg)
+![](https://i.postimg.cc/MGXw8XqX/maven8.jpg)
+![](https://i.postimg.cc/Gp4W5Nxy/maven-9.jpg)
+![](https://i.postimg.cc/HsTfgjtH/maven10.jpg)
+
 
 
 
