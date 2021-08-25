@@ -42,6 +42,16 @@
 	2. si se quiere ejecutar u nprograma java en el mismo VM que Maven se puede o modificar del mismo modo, configurando el plugin en el POM. o usando el codigo modificado de: mvn exec:java -Dexec.mainClass="edu.eci.cvds.App" que fue en nustro caso para lograr compilarlo.
 ![](https://i.postimg.cc/RFzXMH9R/compilar-maven.jpg)
 
+### modificnado app.java:
+#### Parte 1:
+
+![](https://i.postimg.cc/c1tkQ0kw/maven3.jpg)
+![](https://i.postimg.cc/3JMS1Vz6/maven-2.jpg)
+
+#### Parte 2:
+![](https://i.postimg.cc/L8JJsQ89/maven4.jpg)
+![](https://i.postimg.cc/sxfXCwLR/maven5.jpg)
+
 
 
 
